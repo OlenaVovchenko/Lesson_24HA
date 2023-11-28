@@ -1,0 +1,40 @@
+.user_form_conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user_form {
+    background-color: bisque;
+    padding: 70px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#user_form input, button {
+    padding: 10px 35px;
+    font-size: 25px;
+
+}
+.users_list_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+.users_list_container .user_card {
+    border: 1px;
+    background-color: aqua;
+    border-color: black;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
